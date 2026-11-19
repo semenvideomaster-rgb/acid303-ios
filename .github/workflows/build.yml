@@ -11,7 +11,7 @@ jobs:
       - name: Write project files
         run: |
           mkdir -p ACID303/Assets.xcassets/AppIcon.appiconset ACID303/www
-          cp www/index.html ACID303/www/index.html
+          cp index.html ACID303/www/index.html
           cat > project.yml <<'EOF'
           name: ACID303
           options:
